@@ -1,0 +1,40 @@
+/* factureList.css */
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* En-tête du tableau */
+  th {
+    background-color: #4e5066;
+    color: white;
+  }
+  
+  /* Lignes impaires du tableau */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Bouton */
+  button {
+    background-color: #4e5066;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #6b6d85;
+  }
+  

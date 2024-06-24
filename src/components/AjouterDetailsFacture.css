@@ -1,0 +1,16 @@
+.facture-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.facture-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.facture-item:last-child {
+    border-bottom: none; /* Supprimez la bordure inférieure du dernier élément */
+}

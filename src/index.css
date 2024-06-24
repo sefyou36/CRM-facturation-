@@ -1,0 +1,95 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#parent {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 100%;
+    background-color: #f0f0f0;
+    margin-top: 7vh;
+    padding: 20px;
+}
+
+#pageTitle {
+    font-weight: bold;
+    color: #4e5066;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.details-form {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.details-form .form-group {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-form label {
+    margin-bottom: 5px;
+}
+
+.details-form input,
+.details-form select,
+.details-form button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.details-form button[type="submit"] {
+    margin-top: auto; /* Utilisez la marge automatique pour aligner le bouton avec les autres champs */
+    width: auto;
+    padding: 5px 20px;
+    white-space: nowrap;
+}
+.facture-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.facture-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.facture-item:last-child {
+    border-bottom: none; /* Supprimez la bordure inférieure du dernier élément */
+}
+.article-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.article-item:last-child {
+    border-bottom: none; /* Supprimez la bordure inférieure du dernier élément */
+}

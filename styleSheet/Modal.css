@@ -1,0 +1,83 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  .modal-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-title {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  .buttonAdd {
+    background-color: #4e5066;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttonAdd:hover {
+    background-color: #6b6d85;
+    transition: background-color 0.3s ease;
+}
+
+.buttonClose {
+    background-color: rgb(195, 24, 24);
+    color: white; /* Ajout de la couleur du texte */
+    border: none; /* Retirer la bordure par défaut */
+    padding: 10px 20px; /* Ajouter du padding pour une meilleure apparence */
+    cursor: pointer; /* Changer le curseur au survol */
+    transition: background-color 0.3s ease; /* Ajouter une transition pour un effet plus fluide */
+}
+
+.buttonClose:hover {
+    background-color: darkred; /* Couleur de fond au survol */
+    transition: background-color 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+.addClient {
+  font-weight: bold;
+}
